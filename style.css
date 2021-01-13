@@ -1,0 +1,127 @@
+@charset "UTF-8";
+<style type="text/css">
+{
+}
+
+/* Permet de mettre le notebook sur 95% de la fenêtre */
+.container { width:95% !important; }
+
+/* Ajoute un fond colore au notebook */
+#notebook { 
+/*    background-color: #0c870a !important;*/
+    background-color: #F7FF9D !important;
+    box-shadow: inset 20px 36px 20px -35px black !important;
+}
+
+/* coloration du fond (HTML) */
+body { background-color:#F7FF9D !mportant ;
+} 
+
+/* Config. pour les lignes horizontales */
+hr { border: 1px solid red; }
+
+/* Ajout d'une marge en haut et en bas du notebook */
+div#notebook{ margin-top:10px; margin-bottom:10px; }
+
+/* Limite à 90% de la largeur utilisable */
+div.cell{ max-width:90%; margin-left:auto; margin-right:auto; }
+
+/* Ajoute de l'espace entre les cellules */
+div.input, div.output_wrapper{ margin-top:1em; margin-bottom:1em; }
+
+/* Ajoute un filet à gauche des parties textes */
+div.text_cell{
+	margin-top:-2px;
+	margin-bottom:-2px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border-left:5px solid #FFAAFF;
+	border-collapse:collapse;
+	border-top:none;
+	border-bottom:none;
+}
+
+/*div.text_cell { width:600px; height:400px; background-color:#FFCC00; }*/
+
+/* configuration des entêtes */
+h1
+{
+	font-size: 40px;
+	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
+	font-family:Arial, Helvetica, sans-serif;
+	color: #090;
+	background-color: #FFAAFF;
+	padding:16px;
+	font-weight:lighter;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;  
+	box-shadow:2px 2px 6px #888;  
+	text-align:center;
+	display:block;
+	margin:16px;
+	/*  background-image:url(images/background-h1-wood.jpg);  */
+}
+h2
+{
+	font-size: 24px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
+	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
+	color: #090; background-color: #FFAAFF;
+	padding:16px;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;
+	box-shadow:2px 2px 6px #888;  
+	text-align:left;
+	display:block;
+	margin:16px;
+	/*  background-image:url(images/background-h1-wood.jpg);  */
+}
+h3
+{
+	font-size: 16px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
+	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
+	color: #090; background-color: #FFAAFF;
+	padding:16px;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;  
+	box-shadow:2px 2px 6px #888;  
+	text-align:left;
+	display:block;
+	margin:16px;
+	/*  background-image:url(images/background-h1-wood.jpg);  */
+}
+h4
+{
+	font-size: 12px; font-family:Arial, Helvetica, sans-serif;
+	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
+	color: #090;
+	padding:16px;
+	font-weight:lighter;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;  
+	box-shadow:2px 2px 6px #888;  
+	text-align:left;
+	display:block;
+	margin:16px;
+	/*  background-image:url(images/background-h1-wood.jpg);  */
+}
+/* Essai de compteurs */
+body {counter-reset : niveau1 ; }
+h1{counter-reset : niveau2 ;  }
+h1{counter-increment : niveau1 ; }
+h2{counter-increment : niveau2 ; }
+h1::before {content: counter(niveau1, upper-roman) ". ";}
+h2::before {content: counter(niveau2) ". "; }
+
+/* Mise en forme des tables */
+table {
+	width:75%;
+	border-style:solid;
+	border-color:#0000FF;
+	border-width:2px;
+	spacing:0;
+	padding:0;
+}
+th{ background-color: #90EE90; }
+td{ border-color:#99CCFF; color:#0000FF; background-color:#FFFF99; }
+
+</style>
