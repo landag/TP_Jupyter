@@ -14,7 +14,7 @@
 }
 
 /* coloration du fond (HTML) */
-body { background-color:#F7FF9D !mportant ;
+body { background-color:#F7FF9D !important ;
 } 
 
 /* Config. pour les lignes horizontales */
@@ -63,10 +63,10 @@ h1
 }
 h2
 {
-	font-size: 24px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
+	font-size: 20px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
 	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
 	color: #090; background-color: #FFAAFF;
-	padding:16px;
+	padding:12px;
 	-moz-box-shadow: 2px 2px 6px #888;  
 	-webkit-box-shadow: 2px 2px 6px #888;
 	box-shadow:2px 2px 6px #888;  
@@ -77,10 +77,10 @@ h2
 }
 h3
 {
-	font-size: 16px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
+	font-size: 14px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
 	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
 	color: #090; background-color: #FFAAFF;
-	padding:16px;
+	padding:10px;
 	-moz-box-shadow: 2px 2px 6px #888;  
 	-webkit-box-shadow: 2px 2px 6px #888;  
 	box-shadow:2px 2px 6px #888;  
@@ -94,7 +94,7 @@ h4
 	font-size: 12px; font-family:Arial, Helvetica, sans-serif;
 	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
 	color: #090;
-	padding:16px;
+	padding:8px;
 	font-weight:lighter;
 	-moz-box-shadow: 2px 2px 6px #888;  
 	-webkit-box-shadow: 2px 2px 6px #888;  
@@ -105,12 +105,15 @@ h4
 	/*  background-image:url(images/background-h1-wood.jpg);  */
 }
 /* Essai de compteurs */
-body {counter-reset : niveau1 ; }
-h1{counter-reset : niveau2 ;  }
-h1{counter-increment : niveau1 ; }
-h2{counter-increment : niveau2 ; }
-h1::before {content: counter(niveau1, upper-roman) ". ";}
-h2::before {content: counter(niveau2) ". "; }
+/* body {counter-reset: varh1 ; }*/
+/* h1{counter-reset: varh2 ;  }*/
+/* h1{counter-increment: varh1 ; }*/
+/* h1::before {content: counter(varh1, upper-roman) ". ";}*/
+/* h2{counter-reset: varh3 ;  }*/
+/* h2{counter-increment: varh2 ; }*/
+/* h2::before {content: counter(varh1, upper-roman) "." counter(varh2) ". "; }*/
+/* h3{counter-increment: varh3 ; }*/
+/* h3::before {content: counter(varh1, upper-roman) "." counter(varh2) "." counter(varh3) ". "; }*/
 
 /* Mise en forme des tables */
 table {
