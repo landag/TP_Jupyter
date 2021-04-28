@@ -42,15 +42,12 @@ div.text_cell{
 }
 
 /*div.text_cell { width:600px; height:400px; background-color:#FFCC00; }*/
-
 /* configuration des entêtes */
-h1
-{
+h1 {
 	font-size: 40px;
-	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
 	font-family:Arial, Helvetica, sans-serif;
-	color: #090;
-	background-color: #FFAAFF;
+	color: gold; /*#090;*/
+	background-color: dimgrey; /*#FFAAFF;*/
 	padding:16px;
 	font-weight:lighter;
 	-moz-box-shadow: 2px 2px 6px #888;  
@@ -59,13 +56,10 @@ h1
 	text-align:center;
 	display:block;
 	margin:16px;
-	/*  background-image:url(images/background-h1-wood.jpg);  */
 }
-h2
-{
-	font-size: 20px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
-	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
-	color: #090; background-color: #FFAAFF;
+h2 {
+	font-size: 18px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
+	color: gold; background-color: dimgrey;
 	padding:12px;
 	-moz-box-shadow: 2px 2px 6px #888;  
 	-webkit-box-shadow: 2px 2px 6px #888;
@@ -73,13 +67,10 @@ h2
 	text-align:left;
 	display:block;
 	margin:16px;
-	/*  background-image:url(images/background-h1-wood.jpg);  */
 }
-h3
-{
+h3 {
 	font-size: 14px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
-	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
-	color: #090; background-color: #FFAAFF;
+	color: gold; background-color: dimgrey;
 	padding:10px;
 	-moz-box-shadow: 2px 2px 6px #888;  
 	-webkit-box-shadow: 2px 2px 6px #888;  
@@ -87,12 +78,9 @@ h3
 	text-align:left;
 	display:block;
 	margin:16px;
-	/*  background-image:url(images/background-h1-wood.jpg);  */
 }
-h4
-{
+h4 {
 	font-size: 12px; font-family:Arial, Helvetica, sans-serif;
-	/*  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
 	color: #090;
 	padding:8px;
 	font-weight:lighter;
@@ -102,7 +90,6 @@ h4
 	text-align:left;
 	display:block;
 	margin:16px;
-	/*  background-image:url(images/background-h1-wood.jpg);  */
 }
 /* Essai de compteurs */
 /* body {counter-reset: varh1 ; }*/
@@ -117,7 +104,7 @@ h4
 
 /* Mise en forme des tables */
 table {
-	width:75%;
+	width:90%;
 	border-style:solid;
 	border-color:#0000FF;
 	border-width:2px;
