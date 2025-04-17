@@ -1,0 +1,154 @@
+/* Headings */
+body { font-family: 'Arial', sans-serif; background-color: #f7ff9d!important; color: #333; } /* uniquement html */
+
+/* Block Quotes */
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #19085c;
+  border-left: 8px solid #effffc;
+  background-color: #eafcff;
+  padding: 20px;
+}
+
+/* Lists et les menus de jupyte-notebook */
+ul,
+ol {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  color: blue;
+  margin-bottom: 24px;
+}
+
+/* Links */
+a {font:  12pt verdana,sans-serif;text-decoration: none;color: #FF0000;}
+a:hover { text-decoration: underline; red;}    /*text-decoration: none;*/
+a:link {text-decoration:none;color: blue;}
+a:visited {text-decoration: none;color: magenta;}
+
+/* === Boutons de contrôle (run, etc.) Barres verticales ! === */
+button, .btn, .btn-default { background-color: #c9a53b !important; color: #fff !important; border: none !important; border-radius: 6px !important; padding: 6px 12px !important; cursor: pointer;  }
+
+.cell { border-radius: 4px; margin: 10px 0; padding: 10px; transition: background-color 0.2s; }
+.cell:focus-within { box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.3); transition: box-shadow 0.2s; }
+.cell.selected { background-color: #e8f4fc; border-left: 4px solid #2980b9; }
+
+/* === Champs d’édition Markdown === */
+.choix {font: italic  16px Arial, Helvetica, sans-serif; color: #FF9900}
+.cm-builtin { color: #9b59b6; }
+.cm-comment { color: #27ae60; font-style: italic; }
+.cm-def { color: #d35400; }
+.cm-keyword { color: #3498db; }
+.cm-number { color: #e74c3c; }
+.cm-string { color: #e67e22; }
+.cm-variable { color: #2980b9; }
+.code_cell { background-color: #f5f5f5; border-left: 4px solid #3498db; }
+.container { max-width: 980px; }
+.container { width:95% !important; }
+
+.dataframe { border-collapse: collapse; margin: 10px 0; font-size: 0.9em; min-width: 400px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+.dataframe tbody tr { border-bottom: 1px solid #dddddd; }
+.dataframe tbody tr:last-of-type { border-bottom: 2px solid #3498db; }
+.dataframe tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+.dataframe th, .dataframe td { padding: 12px 15px; }
+.dataframe thead tr { background-color: #3498db; color: white; text-align: left; }
+
+h1 {
+	font-size: 40px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: gold; /*#090;*/
+	background-color: dimgrey; /*#FFAAFF;*/
+	font-weight:lighter;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;  
+	box-shadow:2px 2px 6px #888;  
+	text-align:center;
+	display:block;
+	margin:16px;
+    border-bottom: 2px solid #d4af37;
+    border-radius: 12px;
+    font-family: 'Georgia', serif;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+h2 {
+	font-size: 18px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;
+	box-shadow:2px 2px 6px #888;  
+	text-align:left;
+	display:block;
+    color: #f5f5f5;
+    background-color: #7d7d7d;
+    padding: 10px 18px;
+    border-left: 5px solid #d4af37;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-family: 'Georgia', serif;
+}
+h3 {
+	font-size: 14px; font-family:Arial, Helvetica, sans-serif; font-weight:lighter;
+	padding:10px;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;  
+	box-shadow:2px 2px 6px #888;  
+	text-align:left;
+	display:block;
+	margin:16px;
+    color: #2e2e2e;
+    background-color: #f5f5f5;
+    padding: 8px 16px;
+    border-left: 5px solid #7d7d7d;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: 'Georgia', serif;
+}
+h4 {
+	font-size: 12px; font-family:Arial, Helvetica, sans-serif;
+	color: #090;
+	padding:8px;
+	font-weight:lighter;
+	-moz-box-shadow: 2px 2px 6px #888;  
+	-webkit-box-shadow: 2px 2px 6px #888;  
+	box-shadow:2px 2px 6px #888;  
+	text-align:left;
+	display:block;
+	margin:16px;
+}
+/* Mise en forme des tables */
+table {
+	width:90%;
+	border-style:solid;
+	border-color:#0000FF;
+	border-width:2px;
+	spacing:0;
+	padding:0;
+    border-radius: 10px;
+    overflow: hidden;
+	border: 2px;
+}
+th{ background-color: #FFFFFF; 
+	border: 2px;
+}
+td{
+    border-color:#99CCFF; 
+    color:#0000FF; 
+    background-color:#FFFF99;
+	border: 2px;
+}
+table.dataframe {
+	width:90%;
+    border-width: 3px solid #000;     /* ✅ Bord externe */
+    border-radius: 8px;         /* Coins arrondis */
+    border-collapse: collapse;  /* Nécessaire pour fusionner les bordures */
+    border: 2px solid #999;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;  /* Fond clair */
+    overflow: hidden;
+}
+
+table.dataframe th,
+table.dataframe td {
+    border: 2px solid #999;
+    padding: 8px;
+}
