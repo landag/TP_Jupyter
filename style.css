@@ -1,33 +1,5 @@
 @charset "UTF-8";
 <style type="text/css">
-{
-}
-
-/* Permet de mettre le notebook sur 95% de la fenêtre */
-.container { width:95% !important; }
-
-/* Ajoute un fond colore au notebook */
-#notebook { 
-/*    background-color: #0c870a !important;*/
-    background-color: #F7FF9D !important;
-    box-shadow: inset 20px 36px 20px -35px black !important;
-}
-
-/* coloration du fond (HTML) */
-body { background-color:#F7FF9D !important ;
-} 
-
-/* Config. pour les lignes horizontales */
-hr { border: 1px solid red; }
-
-/* Ajout d'une marge en haut et en bas du notebook */
-div#notebook{ margin-top:10px; margin-bottom:10px; }
-
-/* Limite à 90% de la largeur utilisable */
-div.cell{ max-width:90%; margin-left:auto; margin-right:auto; }
-
-/* Ajoute de l'espace entre les cellules */
-div.input, div.output_wrapper{ margin-top:1em; margin-bottom:1em; }
 
 /* Ajoute un filet à gauche des parties textes */
 div.text_cell{
